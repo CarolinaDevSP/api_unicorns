@@ -1,0 +1,35 @@
+
+
+#cabecera{	
+	background: #5cb3ec;  
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.main-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+}
+
+.main-result > div{
+    border: 1px solid rgb(255 255 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 15px;
+}
+
+#img {
+    float: left;
+    height: unset;
+    width: 30%;
+}
+
+
+
+

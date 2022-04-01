@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header id="cabecera">
+            <h2>ESTABLO DE UNICORNIOS</h2>
+        </header>
+
+        <section class="main-input">
+            <form action="">
+                <div id="div1">
+                <h4>Agregar unicornio al establo</h4>
+
+                <label for="nombre">Nombre </label>
+                <input id="nombre" type="text" placeholder="">
+
+                <label for="poder">Poder</label>
+                <input id="poder" type="text" placeholder=" volar">
+
+                <label for="foto">Foto </label>
+                <input id="foto" type="text" placeholder=" url">
+
+                <label for="edad">Edad </label>
+                <input id="edad" type="text" placeholder=" xx años">
+              
+                <!--el type del bptton ya no refresca la pag-->
+                <button id="btnCrear" type="button"> AGREGAR </button>
+            </div>
+            </form>
+            <form action="">
+                <div id="div2">
+                <h4>Modificar unicornio</h4>
+                
+                <label for="nombre2">Nombre </label>
+                <input id="nombre2" type="text" placeholder="">
+
+                <label for="poder2">Poder</label>
+                <input id="poder2" type="text" placeholder=" volar">
+
+                <label for="foto2">Foto </label>
+                <input id="foto2" type="text" placeholder=" url">
+
+                <label for="edad2">Edad </label>
+                <input id="edad2" type="text" placeholder=" xx años">
+              
+                </div>
+            </form>
+        </section>
+
+        <section class="main-result">
+            <h3>Establo</h3>
+            <hr size="10px" color="black" />
+            <div id="lista_unicorn" class="row align-items-end">
+              
+            </div>
+
+
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+    
+</script>
+</html>
